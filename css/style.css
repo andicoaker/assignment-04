@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+}
+
+#app-container {
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  background-color: #f3850b;
+  color: white;
+  display: block;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+    .logo {
+      display: inline-block;
+      width: 10%;
+      vertical-align: middle;
+      padding-top: 20px;
+    }
+
+    .nav-right {
+      display: inline-block;
+      list-style-type: none;
+      float: right;
+      margin: 0px;
+      padding-right: 10px;
+      vertical-align: middle;
+    }
+
+    .nav-right li {
+      display: inline-block;
+      padding: 20px;
+    }
+
+    .nav-right button{
+      border-color: #c5f4f4;
+      color: #c5f4f4;
+      background-color: #f3850b;
+      border-radius: 3px;
+      padding: 6px;
+    }
+    .nav-right button:hover{
+      background-color: #c5f4f4;
+      color: #f3850b;
+    }
+
+
+.fixed-chat{
+  position: fixed;
+  border: solid #44c9c9 5px;
+  background-color: #ffffff;
+  width: 200px;
+  height: 150px;}
+
+    .questions {
+      background-color: #c5f4f4;
+      margin: 0px;
+      padding: 5px;
+    }
+
+    .chat {
+      font-size: 10px;
+      vertical-align: top;
+    }
+
+        .chat img {
+          width: 20%;
+          border-radius: 50%;
+          border: solid black thin;
+          display: inline-block;
+        }
+        .chat span{
+          color: #efad34;
+        }
+        .chat-tiffany {
+          display: inline-block;
+          line-height: 14;
+          vertical-align: middle;
+        }
+
+
+.roommates{
+  background-image: url("../images/hero-splash-roommates-fun.jpg");
+  background-size: cover;
+  padding: 200px 0px;
+}
+
+    .roommate-search{
+      text-align: center;
+      color: white;
+      background-color: rgba(41, 41, 41, .7);
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    .roommate-search h1 {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    .roommate-search p {
+      padding-top: 10px;
+      text-align: center;
+    }
+
+    input {
+      height: 43px;
+      border-radius: 2px;
+      border: 0px;
+    }
+
+    .search{
+    color: white;
+    background-color: #44c9c9;
+    padding: 10px;
+    border-radius: 2px;
+    }
+
+.columns-container {
+  font-size: 0;
+}
+
+    .location {
+      width: 25%;
+      display: inline-block;
+      vertical-align: top;
+      font-size: medium;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 15px;
+    }
+
+    .location img {
+      width: 100%;
+      display: block;
+    }
+
+    .location p {
+      background-color: #3f3d3d;
+      color: white;
+      margin-top: 0px;
+      padding-top: 5px;
+      padding-left: 3px;
+      padding-bottom: 5px;
+
+    }
+
+.cities p {
+  color: #ff5722;
+  width: 100px;
+  display: block;
+  border: solid #ff5722 2px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+}
+
+.photo-column {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #e0dddd;
+  padding: 30px 50px 30px 100px;
+}
+
+    .example-container{
+      border: black solid thin;
+      width: 100%;
+      display: block;
+    }
+
+        /*.example-img-container {
+          display: block;
+          vertical-align: top;
+          width: 100%;
+        }*/
+
+/*note - ask bubba why width adjusts to 100% in chrome but not in css file*/
+            .example-img img{
+              /*vertical-align: top;*/
+              width: 100%;
+            }
+
+        .example-desc{
+          background-color: white;
+          font-size: initial;
+        }
+
+            .example-desc h5 {
+              font-size: larger;
+              padding: 10px;
+              margin: 0px;
+            }
+
+            .date {
+              margin-bottom: 0px;
+              margin-top: 0px;
+              padding-left: 10px;
+              padding-bottom: 0px;
+            }
+
+            .months {
+              margin-bottom: 0px;
+              margin-top: 5px;
+              padding-left: 10px;
+              padding-bottom: 10px;
+            }
+
+.desc-column {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+  background-color: #e0dddd;
+}
+
+    .listings {
+      border: solid thin black;
+    }
+
+    .desc-column h1{
+      font-weight: 100;
+      font-size: 25px;
+    }
+
+    .desc-column ul{
+      list-style-type: circle;
+    }
+
+.footer {
+background-color: #3f3d3d;
+}
+
+    .company-list,
+    .media-list,
+    .directory-list {
+      width: 33.3%;
+      display: inline-block;
+      font-size: medium;
+      list-style: none;
+      background-color: #3f3d3d;
+      color: white;
+      padding-left: 5px;
+      padding-bottom: 15px;
+    }
+
+    .lists {
+      list-style: none;
+      padding-left: 5px;
+      line-height: 1.5;
+      font-size: 12px;
+      color: #808080;
+
+    }
+
+    .footer hr {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+    .social-icons {
+      display: inline-block;
+    }
+
+    .social-icons img {
+      width: 10%;
+      display: inline-block;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 5px;
+      padding-left: 5px;
+    }
