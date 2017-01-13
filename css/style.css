@@ -76,6 +76,7 @@ nav {
       height: 43px;
       border-radius: 2px;
       border: 0px;
+      width: 300px
     }
 
     .search{
@@ -127,6 +128,10 @@ nav {
   border-radius: 3px;
 }
 
+.gray-container {
+  background-color: #e0dddd;
+}
+
 .photo-column {
   width: 50%;
   display: inline-block;
@@ -135,20 +140,33 @@ nav {
   padding: 30px 50px 30px 100px;
 }
 
-  .example-room{
+  .example-container{
     border: black solid thin;
     width: 100%;
     display: block;
   }
 
-      .example-room img{
-        width: 100%;
+    .example-img-container{
+      width: 100%;
+      position: relative;
+    }
+
+    .example-img-container img{
+      width: 100%;
+    }
+
+      .heart i{
+        position: absolute;
+        top: 5%;
+        right: 10px;
+        color: red;
+        font-size: 30px;
       }
 
-      .example-desc{
-        background-color: white;
-        font-size: initial;
-      }
+    .example-desc{
+      background-color: white;
+      font-size: initial;
+    }
 
         .example-desc h5 {
           font-size: larger;
@@ -179,7 +197,6 @@ nav {
 }
 
   .listings {
-    border: solid thin black;
   }
 
     .desc-column h1{
