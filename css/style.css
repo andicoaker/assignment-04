@@ -48,40 +48,6 @@ nav {
     }
 
 
-.fixed-chat{
-  position: fixed;
-  border: solid #44c9c9 5px;
-  background-color: #ffffff;
-  width: 200px;
-  height: 150px;}
-
-    .questions {
-      background-color: #c5f4f4;
-      margin: 0px;
-      padding: 5px;
-    }
-
-    .chat {
-      font-size: 10px;
-      vertical-align: top;
-    }
-
-        .chat img {
-          width: 20%;
-          border-radius: 50%;
-          border: solid black thin;
-          display: inline-block;
-        }
-        .chat span{
-          color: #efad34;
-        }
-        .chat-tiffany {
-          display: inline-block;
-          line-height: 14;
-          vertical-align: middle;
-        }
-
-
 .roommates{
   background-image: url("../images/hero-splash-roommates-fun.jpg");
   background-size: cover;
@@ -169,60 +135,52 @@ nav {
   padding: 30px 50px 30px 100px;
 }
 
-    .example-container{
-      border: black solid thin;
-      width: 100%;
-      display: block;
-    }
+  .example-room{
+    border: black solid thin;
+    width: 100%;
+    display: block;
+  }
 
-        /*.example-img-container {
-          display: block;
-          vertical-align: top;
-          width: 100%;
-        }*/
+      .example-room img{
+        width: 100%;
+      }
 
-/*note - ask bubba why width adjusts to 100% in chrome but not in css file*/
-            .example-img img{
-              /*vertical-align: top;*/
-              width: 100%;
-            }
+      .example-desc{
+        background-color: white;
+        font-size: initial;
+      }
 
-        .example-desc{
-          background-color: white;
-          font-size: initial;
+        .example-desc h5 {
+          font-size: larger;
+          padding: 10px;
+          margin: 0px;
         }
 
-            .example-desc h5 {
-              font-size: larger;
-              padding: 10px;
-              margin: 0px;
-            }
+        .date {
+          margin-bottom: 0px;
+          margin-top: 0px;
+          padding-left: 10px;
+          padding-bottom: 0px;
+        }
 
-            .date {
-              margin-bottom: 0px;
-              margin-top: 0px;
-              padding-left: 10px;
-              padding-bottom: 0px;
-            }
-
-            .months {
-              margin-bottom: 0px;
-              margin-top: 5px;
-              padding-left: 10px;
-              padding-bottom: 10px;
-            }
+        .months {
+          margin-bottom: 0px;
+          margin-top: 5px;
+          padding-left: 10px;
+          padding-bottom: 10px;
+        }
 
 .desc-column {
   width: 50%;
   display: inline-block;
-  vertical-align: top;
   font-size: medium;
   background-color: #e0dddd;
+  padding: 30px 75px 30px 100px;
 }
 
-    .listings {
-      border: solid thin black;
-    }
+  .listings {
+    border: solid thin black;
+  }
 
     .desc-column h1{
       font-weight: 100;
@@ -237,42 +195,79 @@ nav {
 background-color: #3f3d3d;
 }
 
-    .company-list,
-    .media-list,
-    .directory-list {
-      width: 33.3%;
+  .company-list,
+  .media-list,
+  .directory-list {
+    width: 33.3%;
+    display: inline-block;
+    font-size: medium;
+    list-style: none;
+    background-color: #3f3d3d;
+    color: white;
+    padding-left: 5px;
+    padding-bottom: 15px;
+  }
+
+  .lists {
+    list-style: none;
+    padding-left: 5px;
+    line-height: 1.5;
+    font-size: 12px;
+    color: #808080;
+
+  }
+
+.footer hr {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.social-icons {
+  display: inline-block;
+}
+
+  .social-icons img {
+    width: 10%;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+
+.fixed-chat{
+  position: fixed;
+  bottom: 0;
+  border: solid #44c9c9 5px;
+  background-color: #ffffff;
+  width: 200px;
+  height: 150px;}
+
+  .questions {
+    background-color: #c5f4f4;
+    margin: 0px;
+    padding: 5px;
+  }
+
+  .chat {
+    font-size: 10px;
+    vertical-align: top;
+  }
+
+    .chat img {
+      width: 20%;
+      border-radius: 50%;
+      border: solid black thin;
       display: inline-block;
-      font-size: medium;
-      list-style: none;
-      background-color: #3f3d3d;
-      color: white;
-      padding-left: 5px;
-      padding-bottom: 15px;
     }
 
-    .lists {
-      list-style: none;
-      padding-left: 5px;
-      line-height: 1.5;
-      font-size: 12px;
-      color: #808080;
-
-    }
-
-    .footer hr {
-      margin-left: 5px;
-      margin-right: 5px;
-    }
-
-    .social-icons {
+    .chat-tiffany {
       display: inline-block;
+      line-height: 14;
+      vertical-align: middle;
     }
 
-    .social-icons img {
-      width: 10%;
-      display: inline-block;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-right: 5px;
-      padding-left: 5px;
-    }
+      .chat span{
+        color: #efad34;
+      }
