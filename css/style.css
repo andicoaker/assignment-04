@@ -253,38 +253,57 @@ background-color: #3f3d3d;
   }
 
 
-.fixed-chat{
+.help-container{
   position: fixed;
-  bottom: 0;
-  border: solid #44c9c9 5px;
-  background-color: #ffffff;
-  width: 200px;
-  height: 150px;}
+  top: 0;
+  padding-top: 25px;
 
-  .questions {
-    background-color: #c5f4f4;
-    margin: 0px;
-    padding: 5px;
-  }
+}
 
-  .chat {
-    font-size: 10px;
-    vertical-align: top;
-  }
-
-    .chat img {
-      width: 20%;
-      border-radius: 50%;
-      border: solid black thin;
-      display: inline-block;
+  .arrow{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: #44c9c9;
+    height: 25px;
     }
 
-    .chat-tiffany {
-      display: inline-block;
-      line-height: 14;
-      vertical-align: middle;
+  .fixed-chat{
+    position: relative;
+    border: solid #44c9c9 5px;
+    background-color: #ffffff;
+    width: 200px;
+    height: 100px;
+  }
+
+    .questions {
+      background-color: #c5f4f4;
+      margin: 0px;
+      padding: 5px;
     }
 
-      .chat span{
+    /*.fixed-chat {
+      font-size: 10px;
+      vertical-align: top;
+      height: 74px;
+      display: block;
+    }*/
+
+      .fixed-chat img {
+        width: 20%;
+        border-radius: 50%;
+        border: solid black thin;
+        display: inline;
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+      .fixed-chat p {
+        display: inline;
+        font-size: 10px;
+      }
+      .fixed-chat span{
         color: #efad34;
       }
