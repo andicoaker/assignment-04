@@ -255,7 +255,7 @@ background-color: #3f3d3d;
 
 .help-container{
   position: fixed;
-  top: 0;
+  bottom: 0;
   padding-top: 25px;
 
 }
@@ -284,13 +284,6 @@ background-color: #3f3d3d;
       margin: 0px;
       padding: 5px;
     }
-
-    /*.fixed-chat {
-      font-size: 10px;
-      vertical-align: top;
-      height: 74px;
-      display: block;
-    }*/
 
       .fixed-chat img {
         width: 20%;
